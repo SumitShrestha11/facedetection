@@ -84,7 +84,7 @@ class Register extends React.Component {
 				    <div className="">
 				      <input 
 				      	onClick={this.onSubmitSignIn}
-				      	className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib" 
+				      	className="b ph3 pv2 input-reset ba bg-transparent grow pointer f5 dib br2 ma1 b--black-30 shadow-5" 
 				      	type="submit" 
 				      	value="Register"/>
 				    </div>

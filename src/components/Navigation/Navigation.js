@@ -6,7 +6,7 @@ const Navigation = ({onRouteChange, isSignedIn}) =>{
 				<nav style={{display:'flex',justifyContent:'flex-end'}}>
 					<p 
 						onClick={() => onRouteChange('signout')}
-						className='f3 link dim black underline pa3 pointer'>Sign Out</p>
+						className='f3 link dim black-85 pa3 mv2 mr2 pointer ba br2 ma1 b--black-10 shadow-5 b'>Sign Out</p>
 				</nav>
 			);
 		} else {
@@ -14,10 +14,10 @@ const Navigation = ({onRouteChange, isSignedIn}) =>{
 				<nav style={{display:'flex',justifyContent:'flex-end'}}>
 					<p 
 						onClick={() => onRouteChange('signin')}
-						className='f3 link dim black underline pa3 pointer'>Sign In</p>
+						className='f3 link dim black-85 pa2 mv2 mr2 pointer ba br2 ma1 b--black-10 shadow-5 b'>Sign In</p>
 					<p 
 						onClick={() => onRouteChange('register')}
-						className='f3 link dim black underline pa3 pointer'>Register</p>
+						className='f3 link dim black-85 pa2 mv2 mr2 pointer ba br2 ma1 b--black-10 shadow-5 b'>Register</p>
 				</nav>
 			);
 		}
