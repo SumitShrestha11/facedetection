@@ -1,16 +1,18 @@
 {
   "name": "face-detection",
+  "homepage": "https://fr0st11.github.io/facedetection/",
   "version": "0.1.0",
   "private": true,
-  "engines":{
-    "node": "^12.16.2",
-    "npm":"^6.14.4"
+  "engines": {
+    "npm": "6.14.4",
+    "node": "12.16.2"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "clarifai": "^2.9.1",
+    "gh-pages": "^2.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-particles-js": "^3.1.0",
@@ -19,6 +21,8 @@
     "tachyons": "^4.11.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
